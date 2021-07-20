@@ -2,7 +2,7 @@
         method: "GET",
         url: "https://dapi.kakao.com/v3/search/book?target=title",
         data: { query:"2022"},
-        headers:{Authorization: "KakaoAK 983b7bfac20f212b8113aa0ba8306b75"}
+        headers:{Authorization: "KakaoAK ec47a9bda05472ac2b77a05ffa4d70e8"}
       })
         .done(function( msg ) {
 
