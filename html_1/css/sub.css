@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#submenu {width:100%; height:50px; background-color:gray;}
+
+#pro {width:1100px; height:800px; margin:0 auto; border:3px solid #ededed; box-sizing:border-box; position:relative; }
+
+#product {width:500px; height:500px; position:absolute; top:70px; left:30px;}
+
+#product li {float:left; margin:5px 10px 0 0px;}
+#product li:hover {cursor: pointer;}
+
+.w1 {width:500px; height:500px;}
+.w1 img {width:100%; height:100%;}
+
+#productsub {width:100%; height:100%; margin:0 0 0 80px;}
+#productsub img {width:100px; height:100px; opacity: 0.5;}
+#productsub img:hover {opacity:1; border:2px solid #666;}
+
+
+
+
+body{font-family:"맑은 고딕", "애플 고딕"; font-size:12px; color:#666;}
+
+.tablebox {width:550px; height:900px; position:absolute; top:0px; right:0px; display:block;}
+
+.table1{width:500px; border-top:3px solid #e9e9e9;  border-bottom:1px solid #e9e9e9; position:absolute; top:70px; right:30px; display:block; }
+
+td {padding:6px 15px;}
+
+.table1 td:nth-of-type(1) {width:100px;}
+
+.td1 {font-weight: bold; font-size:25px; color:black;}
+
+.td2 {text-decoration: line-through; }
+
+.td3 {color:tomato; font-size:14px; font-weight: bold}
+
+.td4 {color:black; font-weight: bold; font-size:25px;}
+
+.td4:after {content: "쿠폰 받기"; background-color:white; border:1px solid tomato; font-size:15px; color:tomato; border-radius:30px; text-align:center; padding:2px 15px; margin:0 0 0 4px;}
+
+.td5 {color:tomato; font-weight: bold; font-size:25px;}
+
+.td6 {background-color:#f6f6f6; color:#41a5f7}
+
+.td6:hover {cursor: pointer; color:#41a5f7; font-weight: bold; text-decoration: underline;}
+
+.td7 {text-decoration: underline;}
+.td7:hover {cursor: pointer;}
+
+.td8:after {content:"화과방배송"; background-color:white; border:1px solid tomato; color:tomato; padding: 2px 2px; margin:0 0 0 4px;}
+
+.td9 {font-weight: bold; color:black;}
+
+.td9 span {text-decoration: underline;}
+.td9 span:hover {cursor: pointer;}
+
+
+.today {background-color:#ffefef; width:500px; height:30px; position:absolute; top:420px; right:30px; text-align:center;}
+.today:hover {cursor: pointer;}
+
+.today h5 {display:inline-block; font-size:13px; line-height: 30px; color:tomato;}
+.today span {display:inline-block; font-size:13px; color:black; font-weight: bold; text-decoration: underline;}
+.today p {display:inline-block; font-size:13px; }
+.table2{width:500px; border-top:3px solid #e9e9e9; position:absolute; top:470px; right:30px; display:block; font-weight: bold;}
+
+.table2 select{width:470px; height:40px; float:left; margin:0px 0 0 0px; font-family:"돋움"; font-size:13px; color:#b1b1b1; border:1px solid #eee; padding:0px 0px 0 10px; }
+
+.chong {width:460px; height:32px; position:absolute; top:670px; right:50px; display:block; text-align:end; font-size:14px;}
+.chong span {font-size:20px; font-weight: bold; color:tomato;}
+
+.table4{width:530px; height:60px; position:absolute; top:700px; right:0px; display:block;}
+
+.table4 button {margin:1px; cursor:pointer;}
+
+.table4 button:first-child {background-color:#ff3f42; border-radius:3px; padding:10px 50px 12px 50px; color:#fff; border:none; font-weight: bold;}
+
+.table4 button:nth-child(2) {background-color:#fff; border-radius:3px; padding:10px 50px 12px 50px; color:#b79095; border:1px solid #b79095; }
+
+.table4 .btn {background-color:#00c73c; border-radius:3px; padding:8px 20px; color:#fff; border:none; border:1px solid #ddd; margin:-43px 0 0 322px; width:100px; height:42px; display:flex; position: absolute; font-size:15px; vertical-align: middle; justify-content: center; align-items: center;}
+.btn:hover {cursor: pointer;}
+
+.btn span {margin:-3px 0 0 7px; display:inline-block;}
+
+.table4 img {width:20px; height:20px; display:inline;}
+
+.table4 button:nth-child(4) {background-color:#fff; border-radius:3px; padding:10px 12px 12px 12px; color:#666; border:none; border:1px solid #ddd; margin:0 0 0 105px; }
+
+
+    
+#contents {width:92%; height:300px; margin: 40px auto 0px; display:flex; justify-content: center; align-content: space-around; flex-wrap:wrap;}
+
+#contents h3 {width:48%; display:inline-block; float:left; font-size:17px;}
+#contents h4 {width:48%; display:inline-block; text-align: end; font-size:17px;}
+
+
+.contentsproduct {width:200px; height:250px; border-radius: 10px; margin:10px 10px; overflow: hidden; position:relative;}
+.contentsproduct img {width:100%; height:70%; border-radius:10px; position: absolute;}
+.contentsproduct img:hover {cursor: pointer; opacity: 0.5;}
+
+.contentsproduct p {margin:10px 0 0 5px; font-size:12px; position:relative; top:70%;}
+.contentsproduct span {margin:5px 0 0 5px; display:inline-block; font-weight: bold; font-size:15px; position:absolute; top:85%;}
+.contentsproduct h5 {font-size: 12px; display:inline-block; text-decoration: line-through; font-weight: 200; color:#b1b1b1; position:absolute; top:88%; left:33%;}
+
+
+.contentsproduct h5:after {content: "쿠폰"; font-size: 11px; display:inline-block; color:#fff; background-color:red; border-radius: 6px; padding:1px 5px; margin:0 0 0 4px; line-height: 14px; font-weight: bold;}
+
+
+.information {width:95%; height:5250px; margin: 0px auto 0px; overflow:hidden;}
+
+.information ul {height:32px; width:80%; height:40px;  float:left; margin:40px 0 0 115px; border-bottom: 1px solid #ddd;}
+      .information li {float:left; width:100px; height:40px; text-align: center;  cursor:pointer; padding-top:7px;  border: 1px solid #ddd; font-size:15px; }
+      .information .tab_list {float: left;  width:100%; height:100%; margin:0 auto; }
+      .port_back {background-color:white; border: 1px solid #ddd; height:40px;}
+      .tab_sub1 {display:flex; padding:0; position: relative; margin:0 auto; }
+      .tab_sub1 img {width:80%; position:absolute; left:115px;}
+.tab_sub1 video {width:80%; position: absolute; top:1270px;left:115px;}
+.tab_sub1 video:nth-of-type(2) {width:80%; position: absolute; top:3400px;}
+.tab_sub1 img:nth-of-type(2) {width:80%; position:absolute; top:1750px;}
+.tab_sub1 img:nth-of-type(3) {width:80%; position:absolute; top:2390px;}
+.tab_sub1 img:nth-of-type(4) {width:80%; position:absolute; top:3933px;}
+.barogagi {position:absolute; top:5130px; font-size:20px; font-weight: bold; border-bottom: 4px solid #666; height:35px; left:50%; transform: translateX(-50%)}
+.barogagi:hover {cursor: pointer;}
+
+
+      .tab_sub2 {display:none; width:80%; margin:0 auto; height:100%; position: relative;}
+      .tab_sub2 img:nth-of-type(1) {width:100%; position:absolute; top:20px;}
+      .tab_sub2 img:nth-of-type(2) {width:100%; position:absolute; top:220px;}
+
+
+      .tab_sub3 {display:none; width:80%; margin:0 auto; height:100%; position: relative; }
+      .tab_sub3 img:first-child {width:100%; position:absolute; top:20px;}
+      .tab_sub3 img:nth-last-child(2) {width:100%; position:absolute; top:370px;}
+      .tab_sub3 img:last-child {width:100%; position:absolute; top:1030px;}

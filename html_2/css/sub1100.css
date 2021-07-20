@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+* {margin:0; padding:0; box-sizing: border-box;}
+ul,ol,li {list-style:none; margin:0; padding:0;}
+
+@media (min-width:1100px){
+
+#wrap {position: relative; width:100%; height:auto; margin:0 auto; overflow: hidden;}
+
+header {width:100%; height:60px; position:absolute; z-index:3; top:0px; left:0px; background-color:rgba(0,0,0,0); border-bottom:1px solid #3d3d3d;}
+.navlogobox {margin:0 auto; width:100%;  height:100%;}
+.small {width:20%;height:100%; position: absolute;  left:10%; display: flex; align-items: center;}
+.small img:hover {cursor: pointer;}
+.b {width:70%;  height:100%; margin:0px; position: absolute; left:28.1%;}
+.b ul {width:100%; height:100%; display:flex; align-items: center; justify-content: center;}
+.b li {padding:20px 0 0 0px; width:7%; height:100%; text-align: center;}
+.b li:nth-of-type(7) {padding:20px 5px 0 0px; height:100%;}
+.logo h3 {color:#f1ae2b; font-size: 25px; font-family:"Pacifico"; font-weight: normal; margin:-10px 0 0 0; cursor: pointer; transition: all 0.3s ease-in-out;}
+.logo a {text-decoration: none;}
+.logo h3:hover {color:white;}
+
+.b a{color:#fff; font-size:12px; text-decoration: none; height:100%; }
+.c2 {border-bottom: 4px solid #f1ae2b;}
+.b li a.active2 {color:#f1ae2b;}
+.a {display:none;}
+    
+.b li span {font-size:14px; }
+.b li:hover { border-bottom: 4px solid #f1ae2b; color:#f1ae2b;}
+.b li a:hover {color:#f1ae2b;}
+
+
+
+#slider {width:100%; height:350px; position: absolute; z-index: 1; top:0; left:0; background-color: black;}
+#slider:after {content:""; top:0%; left:0%; background-image:url(../img/sub/slider.jpg);  position: absolute; background-size:contain; opacity: 0.3; width:100%; height:100%; background-position:top; background-attachment: fixed; background-repeat: no-repeat;}
+
+.subbox {position: absolute; z-index: 2;width:100%; height:105%; display:flex; flex-wrap: wrap; justify-content: center; align-content: center;}
+
+    .subbox h3 {color:#fff; font-size:40px; width:100%; text-align: center;}
+    .subbox span {width:100%; text-align: center; color:#f1ae2b; margin:5px 0 0 0;}
+    .subbox span .sw {color:#fff;}
+    .subbox p {color:#bbb; width:35%; text-align: center; margin:20px auto 0px; font-size:13px;}
+
+    
+section {width:100%; height:auto; margin:350px auto 0px; display:flex; flex-wrap:wrap; justify-content: center; align-content:flex-start;}
+
+    .sectionwrap1 {width:70%; height:300px; display: flex; justify-content: space-around; align-items: center;}
+    
+    .starbox {width:100%; height:80%; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    .starbox h5 {color:#f1ae2b; margin:10px auto 0px; font-size:20px; font-family: "Great Vibes";}
+    .starbox h3 {margin:20px auto 0px; font-size:30px; font-family: "Great Vibes"}
+    .starbox .doublebox {width:5%; border-top:4px double #666; margin:20px 0 0 0px;}
+    .starbox span {font-size:20px; display:block; margin:20px 0 0 0px; font-family:"Pacifico"; color: #1b2d2f;}
+    .starbox p {color:#666; font-size:14px; margin:30px auto 0px; width:50%;}
+    
+    .sectionwrap2 {width:70%; height:2400px; display: flex; justify-content: flex-end; align-content: flex-start; padding:60px 0px; margin:0 120px 0 0px;}
+    
+    .sectionpart1 {width:25%; height:100%; display: flex; flex-wrap: wrap; padding:0px 10px; }
+    .part1box {width:100%; height:20%; display: flex; flex-wrap: wrap; justify-content: flex-end; align-content: flex-start; line-height: 220%; margin:-10px auto 0px;}
+    .part1box h3 {color: #2b474a; }
+    .part1box span {width:100%; text-align: end; color:#666;}
+    
+    .part1box .p1icon1:after {content: "　"; background-image: url(../img/sub/person.png); background-size: contain; background-repeat: no-repeat; background-position: center; cursor: pointer;}
+    
+    .part1box .p1icon2:after {content: "　"; background-image: url(../img/sub/calendar.png); background-size: contain; background-repeat: no-repeat; background-position: center; cursor: pointer;}
+    
+    .part1box .p1icon3:after {content: "　"; background-image: url(../img/sub/eye.png); background-size: contain; background-repeat: no-repeat; background-position: center; cursor: pointer;}
+    
+    .part1box .p1icon4:after {content: "　"; background-image: url(../img/sub/comment.png); background-size: contain; background-repeat: no-repeat; background-position: center; cursor: pointer;}
+    
+    
+    .sectionpart2 {width:32%; height:100%; margin:0 0 0 3%; display: flex; flex-wrap: wrap;}
+    .part2box {width:100%; height:20%; display: flex; flex-wrap: wrap; justify-content: flex-start; align-content:flex-start; text-align: left;}
+
+    .partybox1 {width:100%; height:40%; background-image: url(../img/sub/food2.jpg); background-size: 100%; background-repeat: no-repeat; background-position: center;}
+
+    .partybox2 {width:100%; height:40%; background-image: url(../img/sub/food4.jpg); background-size: 100%; background-repeat: no-repeat; background-position: center;}
+
+    .partybox3 {width:100%; height:40%; background-image: url(../img/sub/food3.jpg); background-size: 100%; background-repeat: no-repeat; background-position: center;}
+
+    .partybox4 {width:100%; height:40%; background-image: url(../img/sub/food1.jpg); background-size: 100%; background-repeat: no-repeat; background-position: center;}
+    
+    .part2box button {width:100px; color: #fff; border:1px solid #fff; background-color: #2b474a; padding:5px 10px; margin:10px 0 0 0px;}
+    .part2box h2 {margin:20px auto 0px; color: #2b474a; text-align: left; width:100%;}
+    .part2box p {color:#666; font-size:13px; width:85%; margin:10px 0 0 0px;}
+    
+    .part2box img {width:100%; height:50%;}
+        
+    .winebox {width:100%; height:25%; display: flex;}
+
+    .wineimgbox1, .wineimgbox2, .wineimgbox3, .wineimgbox4 {width:30%; height:90%; }
+    .wineimgbox1 {background-image: url(../img/sub/wine1.jpg); background-size: 60% 100%; background-repeat: no-repeat; background-position: center;}
+    .wineimgbox2 {background-image: url(../img/sub/wine3.jpg); background-size: 70% 100%; background-repeat: no-repeat; background-position: center;}
+    .wineimgbox3 {background-image: url(../img/sub/wine2.jpg); background-size: 70% 100%; background-repeat: no-repeat; background-position: center;}
+    .wineimgbox4 {background-image: url(../img/sub/wine4.jpg); background-size: 60% 100%; background-repeat: no-repeat; background-position: center;}
+
+    
+    
+    .winetextbox {width:70%; height:90%;}
+    
+    .winedottbox { display: flex;  align-items: center; width:100%; height:45%; margin:10px 0 0 0;}
+    .winedottbox .hh1 {height:60%; font-size:0.8vmax; width:30%; color: #2b474a;}
+    .winedottbox .hh2 {width:28%; font-size:0.8vmax;}
+    .winedottbox .hh3 {width:25%; font-size:0.8vmax;}
+    .winedottbox .hh4 {width:33%; font-size:0.8vmax;}
+    
+    
+    .winedottbox .dottbox {width:47%; height:50%; border-top:1px dashed #666; margin:5% 0 0 0;}
+    .winedottbox .dottbox2 {width:49%; height:50%; border-top:1px dashed #666; margin:5% 0 0 0;}
+    .winedottbox .dottbox3 {width:52%; height:50%; border-top:1px dashed #666; margin:5% 0 0 0;}
+    .winedottbox .dottbox4 {width:45%; height:50%; border-top:1px dashed #666; margin:5% 0 0 0;}
+
+    
+    
+    
+    .winedottbox h3 {height:60%; font-size:17px; width:30%; color: #2b474a;}     
+
+    .winedottbox .pricebox {width:60px; height:64%; border:1px dashed #666; text-align: center; display: flex; justify-content: center; align-items: center; margin:-3px 0 0 0px; color:#a40d22; font-weight: bold; font-size:0.8vmax;}
+    .pricebox2 {color:#a40d22; font-weight: bold; font-size:0.8vmax; border:1px dashed #666; height:64%;  text-align: center; display: flex; justify-content: center; align-items: center; width:70px; margin:-3px 6px 0 0; } 
+
+    
+    
+    .winetextbox p {font-size:11px; color:#666; line-height: 200%; width:100%; margin:-10px 0 0 0}
+
+
+
+    
+
+    
+    
+    .sectionpart3 {width:28%; height:80%; margin:0% 0 0 3%; display: flex; justify-content: center; flex-wrap: wrap; align-content: flex-start; background-color: #1b2d2f; border-radius: 0;}
+    .sectionpart3 .search {display: flex; flex-flow: row wrap; width:80%; height:50px; align-items: center; justify-content: center;  margin: 50px auto 0px;}
+    .sectionpart3 .search input {background-color: #2b474a; border: none; width:75%; height: 41px; border-top-left-radius: 20px; border-bottom-left-radius: 20px; padding: 20px; outline: none;}
+    .sectionpart3 .search input::placeholder {color: #f1ae2b;}
+    .sectionpart3 .search button {height:41px; width:20%; border-top-right-radius:20px; border-bottom-right-radius:20px; display: block; border:none; cursor: pointer; outline: none; background-color: #2b474a; background-image: url(../img/sub/search.png);}
+    .search button img {width:50%; height:50%;}
+    
+    .person {width:80%; height:400px; display: flex; justify-content: center; flex-wrap: wrap; text-align: center; align-content: flex-start;  margin: 40px auto 0px;}
+    .person h3 {color:#fff; font-size:20px; margin:30px auto 0px;}
+    .person span {color:#666; width:80%; font-size:15px; letter-spacing: -1px; margin: 20px auto 0px;}
+    .person p {color:#666; width:90%; font-size:12px; margin: 20px auto 0px;}
+    .pimg {border-radius: 50%; overflow: hidden; height:200px; width:85%;}
+    .pimg img {width:100%; height:100%; transform: scale(1.2)}
+    
+    
+    .award {width:75%; height:auto; text-align: center; margin:20% auto 0px;}
+    .award th {color:#f1ae2b; border-bottom: 1px dotted #fff; font-size:17px; height:60px;}
+    .award td {color:#fff; border-bottom: 1px dotted #fff; height:40px; font-size:12px;}
+    
+    .btbox {margin:40px auto 0px; display: flex; flex-wrap: wrap; width:75%; justify-content: flex-start;}
+    .btbox button {margin:5px 5px; padding:5px 10px; background-color: #1b2d2f; color: #fff; border:1px solid #fff; font-size:12px; transition: all 0.3s ease-in-out;}
+    .btbox button:hover {background-color: #f1ae2b; cursor: pointer; color:black; border:1px solid #f1ae2b;}
+
+    .snsiconbox {width:60%; height:100px; display: flex; justify-content: space-around; margin:30px auto 0px;}
+    .facebook {width:20%; height:100%; background-image: url(../img/sub/facebook.png); background-size: contain; background-repeat: no-repeat; background-position: center; cursor: pointer;}
+    .twitter {width:20%; height:100%; background-image: url(../img/sub/twitter.png); background-size: contain; background-repeat: no-repeat; background-position: center; cursor: pointer;}
+    .youtube {width:20%; height:100%; background-image: url(../img/sub/youtube.png); background-size: contain; background-repeat: no-repeat; background-position: center; cursor: pointer;}
+    .instagram {width:20%; height:100%; background-image: url(../img/sub/instagram.png); background-size: contain; background-repeat: no-repeat; background-position: center; cursor: pointer;}
+    
+    .groggery {width:60%; height:50px; background-color: #f1ae2b; display: flex; justify-content: center; align-items: center; font-size: 15px; font-weight: bold; margin:30px auto 0px; color: #2b474a;}
+    
+    .history {width:70%; height:300px; margin:40px auto 0px;}
+    .history td {border-bottom: 1px dotted #fff; color:#fff; height:50px; text-align: center; font-size:12px;}
+    .history tr:first-of-type {font-weight: bold; font-size:17px;}
+    
+    .sectionwrap3 {width:100%; height:50px; background-color: white;}    
+
+
+footer {width:100%; height:385px; background-color:#1b2d2f; display:flex; justify-content: center; align-content: center; flex-wrap: wrap;}
+
+footer button {width:2.5%; height:1.5%; border:1px solid #f1ae2b; background-color:#f1ae2b; transition: 0.3s all ease-in-out; cursor: pointer; letter-spacing: 1px; font-size:12px; font-weight: bold; top:98%; color:#fff; font-size:18px; position: absolute;}
+footer button:hover {background-color:#fce29b;}
+
+.f1box {width:17.2%; height:70%; margin:0.3%;}
+.f1box h3 {color:#f1ae2b; font-size:28px; margin:20% 0 7% 0;}
+.f1box p {color:#f4f3de; margin:10px auto 0px;}
+.f1box p span {font-weight: bold;}
+.f1box img {margin:0 2% 0 0}
+
+.f2box {width:67%; height:17%; border-top:1px solid #fff; margin:1% 0% 0 -5%;}
+.f2box p {color:#f4f3de; margin:20px auto 0px;}
+}

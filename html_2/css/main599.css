@@ -1,0 +1,316 @@
+@charset "UTF-8";
+
+* {margin:0; padding:0; box-sizing: border-box;}
+ul,ol,li {list-style:none; margin:0; padding:0;}
+
+
+@media (max-width:599px){
+
+#wrap {position: relative; width:100%; height:auto; margin:0 auto; overflow: hidden;}
+
+header {width:100%; height:70px; position:absolute; z-index:3; top:0px; left:0px; background-color:rgba(0,0,0,0); border-bottom:1px solid #3d3d3d}
+
+.navlogobox {margin:0 auto; width:100%; height:70px;}
+    
+.small {width:100%; height:70px; display:flex; justify-content: space-between; align-items: center; padding:20px;}
+.small img:hover {cursor: pointer;}
+.logo {display:block;}
+.logo h3 {color:#f1ae2b; font-size: 25px; font-family:"Pacifico"; font-weight: normal; margin:-10px 0 0 0; cursor: pointer; transition: all 0.3s ease-in-out;}
+.logo h3:hover {color:white;}
+
+.b {width:770px; height:auto; margin:0px; display: none; background-color: white;}
+.b li {padding:15px 0px; margin:-10px 0 0 0px; }
+.b a{color:black; font-size:11px; letter-spacing: 0.3px; text-decoration: none; font-weight: bold; padding:0 30px;}
+.c1 {}
+.b li a.active {color:#f1ae2b;}
+
+.b li span {font-size:16px;}
+.b li:hover {color:#f1ae2b;}
+.b li a:hover {color:#f1ae2b;}
+
+
+
+#slider {width:100%; height:970px; position: absolute; z-index: 1; top:0; left:0; background-color: black;}
+#slider:after {content:""; top:0%; left:0%; background-image:url(../img/main/slogan_bg.jpg);  position: absolute; background-size:cover; opacity: 0.7; width:100%; height:100%; background-position: center;
+background-attachment: fixed;}
+
+.sbox {position: absolute; z-index: 2;width:100%; height:100%; display:flex; flex-wrap: wrap; justify-content: center; align-content: center;}
+
+
+.sbox h1 {text-align:center; color:#f1ae2b; letter-spacing:5px; font-size:50px; width:100%; margin:-60px auto 0px;}
+
+.sbox p {color:#fff; text-align:center; padding:10px 20px; color:#f4f3de; width:100%; font-size:14px;}
+
+.sbox span {color:#fff; text-align:center; padding:10px 20px; display:block; color:#f4f3de; font-size:20px; font-family: "Great Vibes" ; width:100%; letter-spacing: 5px;}
+
+.sbox h5 {text-align:center; background-color:#fce29b; width:100px; padding:15px; color:black; transition: all 0.2s ease-in-out; font-size:13px; letter-spacing: 1px;  margin:20px auto 0px; opacity: 0.7;}
+
+.sbox h5:hover {cursor: pointer; background-color:#f1ae2b; opacity: 1; color:#666; }
+
+
+section {width:100%; height:auto; background-color:white; margin:970px auto 0px; display:flex; flex-wrap:wrap; justify-content: center; align-content:flex-start; }
+
+.sectionpart1 {width:100%; height:300px; display:flex; flex-wrap: wrap; justify-content: center; align-content: center; }
+    
+.bgbox1 {background-image: url(../img/main/storybg.png); background-position: center; background-repeat: no-repeat; width:60%; height:40%; display:flex; align-items: center; background-size: contain; margin:-10px auto 0px;}
+.sectionpart1 h3 {width:100%; text-align: center; font-size:30px; font-family:"Caveat Brush"; font-weight: normal; }
+.sectionpart1 p {width:80%; text-align: center; margin:20px auto 0px; color:#666; font-size:15px;}
+
+.sectionpart2box {width:100%; height:auto; display:flex; flex-wrap: wrap;}
+    .sectionpart2:nth-of-type(1){order:0}
+    .sectionpart2:nth-of-type(2){order:0}
+    .sectionpart2:nth-of-type(3){order:1}
+    .sectionpart2:nth-of-type(4){order:0}
+    .sectionpart2:nth-of-type(5){order:2}
+    .sectionpart2:nth-of-type(6){order:3}
+
+.sectionpart2 {width:100%; height:300px; margin:0 auto; flex-wrap: wrap; display:flex; justify-content: center; align-content: center;}
+.sectionpart2 h3 {text-align: left; width: 82%; font-size:40px;}
+.sectionpart2 p {text-align: left; width: 82%; margin:10px auto 0px; color:#666; font-size:15px;}
+.sectionpart2 p:first-letter {color:#f1ae2b; font-size:30px; font-family: "Great Vibes"; font-weight: bold;}
+.sectionpart2 img {width:100%; height:100%;}
+    
+.sectionpart3 {width:100%; height:1500px; background-image: url(../img/main/bg.jpg); background-size: cover; background-position: center;}
+.s3bg {background-image: url(../img/main/underline.png); background-position: center; background-repeat: no-repeat; width:100%; height:10%; display:flex; align-items: center; background-size: contain;}
+
+
+
+.part3box {width:100%; height:70%; display:flex; justify-content: center; flex-wrap: wrap; align-content: space-around; margin:0 auto;}
+
+.sectionpart3 h3 {text-align: center; width:100%; font-size:30px; margin:50px auto 0px; font-family:"Caveat Brush"; font-weight: normal;}
+.sectionpart3 p {text-align: center; width:100%; height:auto; color:#666; margin:20px 0 120px 0}
+
+
+.part3box1 {width:100%; height:39%; background-color:white; margin:20px auto 0px; box-shadow: 4px 2px 10px 2px #eee; padding:10px; text-align: center;}
+.part3box1 span { display: inline-block; font-size: 20px; font-family:"Pacifico"}
+.teamphoto {width:100%; height:90%; background-color:red;}
+.teamphoto img {width:100%; height:100%;}
+
+
+.sectionpart4 {width:100%; height:auto; display: flex; justify-content: center; flex-wrap: wrap; align-content: flex-start;}
+.bgbox2 {background-image: url(../img/main/menubg.png); background-position: center;background-repeat: no-repeat; width:60%; height:10%; display:flex; align-items: center; background-size: contain; margin:-30px auto 0px;}
+.sectionpart4 h3 {text-align: center; width:100%; font-size:30px; font-family:"Caveat Brush"; font-weight: normal;}
+.sectionpart4 p {text-align: center; width:80%; height:auto; color:#666; margin:-70px auto 0px;}
+
+.menu {width:100%; height:2800px; margin:50px auto 0px; overflow:hidden; display:flex; flex-wrap: wrap;}
+.menu ul {height:32px; width:100%; height:200px;  font-weight: bold; display: flex; flex-wrap: wrap; justify-content: center;}
+.menu li {float:left; width:51%; height:40px; text-align: center;  cursor:pointer; padding-top:7px; font-size:15px; }
+.menu li:hover {color:#f1ae2b;}
+
+.menu .tab_list {float: left;  width:100%; height:100%; margin:0 auto; }
+
+.port_back {height:40px; border-bottom: 2px solid #f1ae2b; color:#f1ae2b; width:100%;}
+
+.tab_sub1 {display:flex; width:100%; height:760px; margin:30px auto 0px;  position: relative; justify-content: space-between; flex-wrap: wrap; }
+.tab_sub2 {display:none; width:100%; height:760px; position: relative; }
+.tab_sub3 {display:none; width:100%; height:760px; position: relative; }
+.tab_sub4 {display:none; width:100%; height:760px; position: relative; }
+.tab_sub5 {display:none; width:100%; height:760px; position: relative; }
+    .tabbox {display:flex; flex-wrap:wrap; width:100%; height:760px;}
+    
+.flexbox {display:flex; width:100%; height:760px; margin:30px auto 0px;  position: relative; justify-content: space-between; flex-wrap: wrap; align-content: flex-start;}
+
+.menubox {width:100%; height:100%; }
+.menubox img {width:100%; height:100%;}
+
+.menutext {display:flex; justify-content: space-between; background-color:rgba(0, 0, 0, 0.6); height:25px; width:100%; align-items: center; padding:0px 10px; position: absolute; top:0%;}
+.menutext span {color:#fff; display:inline-block; font-size:15px;}
+.menutext h5 {color:#f1ae2b; font-size:20px; font-weight: normal;}
+
+.breakfastmenu1 {width:100%; height:35%; position: relative;}
+.breakfastmenu2 {width:100%; height:60%; margin:4% 0 0 0; position: relative;}
+.breakfastmenu3 {width:100%; height:55%; position: relative;}
+.breakfastmenu4 {width:100%; height:35%; margin:4% 0 0 0; position: relative;}
+.breakfastmenu5 {width:100%; height:65%; position: relative;}
+.breakfastmenu6 {width:100%; height:30%; margin:4% 0 0 0; position: relative;}
+
+.lunchmenu1 {width:100%; height:35%; position: relative;}
+.lunchmenu2 {width:100%; height:35%; margin:4% 0 0 0; position: relative;}
+.lunchmenu3 {width:100%; height:40%; position: relative;}
+.lunchmenu4 {width:100%; height:38%; margin:4% 0 0 0; position: relative;}
+.lunchmenu5 {width:100%; height:35%; position: relative;}
+.lunchmenu6 {width:100%; height:55%; margin:4% 0 0 0; position: relative;}
+
+.dinnermenu1 {width:100%; height:60%; position: relative;}
+.dinnermenu2 {width:100%; height:35%; margin:4% 0 0 0; position: relative;}
+.dinnermenu3 {width:100%; height:35%; position: relative;}
+.dinnermenu4 {width:100%; height:35%; margin:3% 0 0 0; position: relative;}
+.dinnermenu5 {width:100%; height:43%; margin:18% 0 0 0; position: relative;}
+.dinnermenu6 {width:100%; height:33%; margin:4% 0 0 0; position: relative;}
+
+.drinkmenu1 {width:100%; height:65%; position: relative;}
+.drinkmenu2 {width:100%; height:38%; margin:4% 0 0 0; position: relative;}
+.drinkmenu3 {width:100%; height:35%; margin:18% 0 0 0; position: relative;}
+.drinkmenu4 {width:100%; height:35%; margin:4% 0 0 0; position: relative;}
+.drinkmenu5 {width:100%; height:35%; margin:35% 0 0 0; position: relative;}
+.drinkmenu6 {width:100%; height:40%; margin:4% 0 0 0; position: relative;}
+
+.dessertmenu1 {width:100%; height:35%; position: relative;}
+.dessertmenu2 {width:100%; height:55%; margin:4% 0 0 0; position: relative;}
+.dessertmenu3 {width:100%; height:45%; position: relative;}
+.dessertmenu4 {width:100%; height:35%; margin:4% 0 0 0; position: relative;}
+.dessertmenu5 {width:100%; height:35%; position: relative;}
+.dessertmenu6 {width:100%; height:55%; margin:4% 0 0 0; position: relative;}
+
+
+.sectionpart5 {width:100%; height:350px; position: relative; z-index: 2; background-color:black;}
+
+.sectionpart5:after {background-image: url(../img/main/slogan_bg.jpg); background-position: center; background-size: cover; top:0; left:0; position: absolute; z-index: 1; width:100%; height:100%; content:""; opacity: 0.7; background-attachment: fixed;}
+
+.gbox {position: absolute; z-index: 2; width:100%; height:100%; display:flex; flex-wrap: wrap; justify-content: center; align-content: center;}
+
+.sectionpart5 h3 {width:100%; text-align: center; font-size:40px; font-family:"Pacifico"; color:#f1ae2b; font-weight:inherit;}
+.sectionpart5 p {width:77%; text-align: center; color:#666; color:#fff; font-size:17px; margin:30px auto 0px;}
+
+.sectionpart6 {width:100%; height:300px; display:flex; flex-wrap: wrap; justify-content: center; align-content: center;}
+
+.bgbox3 {background-image: url(../img/main/gallerybg.png); background-position: center; background-repeat: no-repeat; width:70%; height:40%; display:flex; align-items: center; background-size: contain;}
+.sectionpart6 h3 {width:100%; text-align: center; font-size:30px; font-family:"Caveat Brush"; font-weight: normal; margin:-10px auto 0px;}
+.sectionpart6 p {width:80%; text-align: center; color:#666; font-size:15px;}
+
+
+.sectionpart7 {width:100%; height:1000px;}
+
+.s7box {display:flex; width:100%; height:100%; position: relative; justify-content: space-between; align-content: flex-start; flex-wrap: wrap; padding:5px;}
+
+.gallerybox {width:49%; height:100%; display:flex; align-content: flex-start; flex-wrap: wrap;}
+.gallerybox img {width:100%; height:100%; position: absolute; transition: 0.3s all ease-in-out;}
+.gallerybox img:hover {opacity:0.8; cursor: pointer;}
+    .gallerybox:last-of-type {display: none;}
+
+.gallerymenu1 {width:100%; height:21%; margin:4% 0 0 0; position: relative;  background-color:black;}
+.gallerymenu2 {width:100%; height:48%; margin:4% 0 0 0; position: relative;  background-color:black;}
+
+.sectionpart8 {width:100%; height:350px; position: relative; z-index: 2; background-color:black; display:flex; justify-content: center; align-items: center; flex-wrap: wrap;}
+
+.sectionpart8:after {background-image: url(../img/main/footprint.jpg); background-position: center; background-size: contain; top:0; left:0; position: absolute; z-index: 1; width:100%; height:100%; content:""; opacity: 0.4; background-attachment: fixed;}
+
+.s8box {position: absolute; z-index: 2; width:70%; height:70%; display: flex; justify-content: center; align-items: center; flex-wrap: wrap;}
+
+.sectionpart8 h3 {text-align: center; font-size:25px; color:#f1ae2b; height:15%; width:100%;}
+
+      #slidewrap {width:700px; height: 50%; margin: 0px auto; position: relative; overflow: hidden;}
+      .slide {width: 700px; position: relative; height:100%; display: flex; flex-wrap: wrap; justify-content: flex-start;}
+      .slide li {width: 700px; height: 100%; float: left;}
+      .slide li p {width: 100%; height: 100%; text-align:center; color:#fff;  text-align: left; line-height: 180%; font-size:17px;}
+      .slide li span {color:#f1ae2b; display: block; text-align:left; font-weight: bold; font-size:15px;}
+      .prev {left:0; border-radius: 0 10px 10px 0px; padding: 0 8px 0 2px; position:absolute; background: rgba(255,255,255,0.5); color:#000;}
+      .next {right:0; border-radius: 10px 0px 0px 10px; padding: 0 2px 0 8px; position:absolute; background: rgba(255,255,255,0.5); color:#000;}
+
+
+
+
+.sectionpart9 {width:100%; height:200px; display:flex; flex-wrap: wrap; justify-content: center; align-content: center;}
+
+.bgbox4 {background-image: url(../img/main/eventbg.png); background-position: center;background-repeat: no-repeat; width:60%; height:50%; display:flex; align-items: center; background-size: contain;}
+
+.sectionpart9 h3 {width:100%; text-align: center; font-size:30px; font-family:"Caveat Brush"; font-weight: normal; margin:-10px auto 0px;}
+.sectionpart9 p {width:70%; text-align: center; color:#666; font-size:13px;}
+
+.sectionpart10 {width:100%; height:600px; display:flex; justify-content: center; padding:10px; flex-wrap: wrap;}
+.s10box {width:100%; height:27%; background-color: black; margin:2% 1% 0 0; position: relative; display:flex; justify-content: center; align-items: center; overflow: hidden;}
+.s10text {color:#f1ae2b; font-size:40px; font-weight: bold; position: absolute;}
+.s10box img {width:100%; height:250%; opacity: 0.6;}
+
+.sectionpart11 {width:100%; height:305px; display:flex; flex-wrap: wrap; justify-content: center; align-content: center; background-color:#1b2d2f; margin:100px auto 0px;}
+    .s11imgbox {width:100%; text-align: center}
+.sectionpart11 p {width:85%; text-align: center; margin:20px auto 0px; color:#fff; font-size:15px;}
+.sectionpart11 span {color:#f1ae2b; margin:20px auto 0px;}
+
+.sectionpart12 {width:100%; height:200px; display:flex; flex-wrap: wrap; justify-content: center; align-content: center;}
+.bgbox5 {background-image: url(../img/main/blogbg.png); background-position: center;background-repeat: no-repeat; width:50%; height:60%; display:flex; align-items: center; background-size: contain;}
+.sectionpart12 h3 {width:100%; text-align: center; font-size:30px; font-family:"Caveat Brush"; font-weight: normal; margin:-20px auto 0px;}
+.sectionpart12 p {width:80%; text-align: center; color:#666; font-size:15px;}
+
+.sectionpart13 {width:100%; height:1270px; display: flex; flex-wrap: wrap; justify-content: space-around; align-content: flex-start;}
+.s13box {width:100%; height:44%; margin:3% 0 0 2%; border:1px solid #eee; transition: all 0.3s ease-in-out; position: relative;}
+.s13box:hover {box-shadow: 2px 2px 10px 4px #eee;}
+
+.s13box:nth-of-type(5) {height:42%;}
+.s13box:last-of-type {height:42%;}
+
+.s13box img {height:50%; width:100%; position: absolute;}
+.s13box:nth-of-type(5) img {height:53%;}
+.s13box:last-of-type img {height:53%;}
+
+
+.s13text {width:100%; height:50%; position: absolute; top:52%; left: 0%; padding:10px 20px;}
+.s13box:nth-of-type(5) .s13text {top:54%;}
+.s13box:last-of-type .s13text {top:54%;}
+
+.s13text h3 {font-size:20px; cursor: pointer; transition: 0.2s all ease-in-out; margin:0 0 2% 0;}
+.s13text h3:hover {color:#f1ae2b;}
+.s13text span {font-size:12px; color:#666; margin:10px auto 0px;}
+.s13text p {font-size:15px; color:#666; margin:10px auto 0px; display:inline-block; width:100%;}
+.s13text h5 {font-size:14px; display:inline-block; margin:10px auto 0px; transition: 0.2s all ease-in-out; cursor: pointer;}
+.s13text h5:hover {color:#f1ae2b;}
+
+.s13text .yellow:before {content:"　"; background-image: url(../img/main/yellow.jpg); margin:0 3px 0 0;}
+.s13text .person:before {content:"　"; background-image: url(../img/main/person.jpg); margin:0 3px 0 0;}
+.s13text .message:before {content:"　"; background-image: url(../img/main/message.jpg); margin:0 3px 0 0;}
+.s13text .calendar:before {content:"　"; background-image: url(../img/main/calendar.jpg); margin:0 3px 0 0;}
+
+
+
+.sectionpart13 button {width:25%; height:40px; border:1px solid #f1ae2b; background-color:#fce29b; margin:30px auto 0px; transition: 0.3s all ease-in-out; cursor: pointer; letter-spacing: 1px; font-size:12px; font-weight: bold; }
+.sectionpart13 button:hover {background-color:#f1ae2b;}
+
+.sectionpart14 {width:100%; height:300px; display:flex; flex-wrap: wrap; justify-content: flex-start; align-items: center; background-color:#1b2d2f; margin:2250px auto 0px; padding:20px;}
+.s14box {display:flex; justify-content: flex-start; flex-wrap: wrap; width:100%; height: 30%; align-content: center;}
+.s14box p {text-align: center; color:#fff; font-size:20px; width:100%; text-align: left;}
+.s14box span {color:#f1ae2b; font-size: 47px; font-family:inherit; font-weight: bold; letter-spacing: 3px; width:100%;}
+
+.sectionpart14 input {width:100%; height:45px; background-color: #1b2d2f; border:1px solid #fff; margin:0 2% 0 2%; padding:0 20px; color:#fff; font-size:20px; font-weight: normal;}
+    
+.sectionpart14 button {width:25%; height:45px; border:1px solid #f1ae2b; background-color:#fce29b; transition: 0.3s all ease-in-out; cursor: pointer; letter-spacing: 1px; font-size:12px; font-weight: bold;}
+.sectionpart14 button:hover {background-color:#f1ae2b;}
+
+
+.sectionpart15 {width:100%; height:850px; padding:0.7%; display: flex; justify-content: center; align-content: flex-start;}
+.sectionpart15 img {display:none;}
+    
+.s15box {width:100%; height:100%; background-color: white; display:flex; flex-wrap: wrap; justify-content: center; align-content: flex-start;}
+
+.rereservation {width:100%; height:30%; display:flex; flex-wrap: wrap; justify-content: center; align-content: center; margin:0 0 0 -3%;}
+
+.rsbg {background-image: url(../img/main/underline.jpg); background-position: center; background-repeat: no-repeat; width:100%; height:40%; display:flex; align-items: center; background-size: contain;}
+    
+    
+.rereservation h3 {width:100%; text-align: center; font-size:30px;}
+.rereservation p {width:100%; text-align: center; margin:20px auto 0px; color:#666; font-size:15px;}
+
+.reservetable {display:flex; flex-wrap: wrap; justify-content: space-around; align-content: space-around; width:90%; height:70%}
+
+.reservetable .t1 {width:100%; height:7.5%; border:1px solid #bbb; padding:10px; font-size:15px; color:#666; letter-spacing: 1px; transition: 0.2s all ease-in-out;}
+.reservetable .t1:focus {box-shadow: 2px 2px 10px 4px #eee;}
+
+.reservetable button {width:37%; height:45px; border:1px solid #f1ae2b; background-color:#fce29b; transition: 0.3s all ease-in-out; cursor: pointer; letter-spacing: 1px; font-size:12px; font-weight: bold; margin:0px auto 0px;}
+.reservetable button:hover {background-color:#f1ae2b;}
+
+
+.sectionpart16 {width:100%; height:180px; position: relative; z-index: 2; background-color:black;}
+
+.sectionpart16:after {background-image: url(../img/main/findus.jpg); background-position: center; background-size: cover; top:0; left:0; position: absolute; z-index: 1; width:100%; height:100%; content:""; opacity: 0.7; background-attachment: fixed;}
+
+.s16box {position: absolute; z-index: 2; width:100%; height:100%; display:flex; flex-wrap: wrap; justify-content: center; align-content: center; }
+
+.sectionpart16 h3 {width:100%; text-align: center; font-size:30px; color:#f1ae2b; letter-spacing: 4px;}
+.sectionpart16 p {width:100%; text-align: center; color:#666; font-size:14px; color:#fff; font-size:15px; margin:10px auto 0px;}
+
+#map_view {width:100%; height:320px;}
+
+footer {width:100%; height:900px; background-color:#1b2d2f; display:flex; justify-content: center; align-content: flex-start; flex-wrap: wrap; padding:20px;}
+
+footer button {width:9%; height:0.25%; border:1px solid #f1ae2b; background-color:#f1ae2b; transition: 0.3s all ease-in-out; cursor: pointer; letter-spacing: 1px; font-size:12px; font-weight: bold; color:#fff; font-size:18px; position: absolute; position: absolute; bottom:10px; right: 10px;}
+footer button:hover {background-color:#fce29b;}
+
+.f1box {width:100%; height:15%; margin:10% 0 0 0;}
+.f1box h3 {color:#f1ae2b; font-size:28px; }
+.f1box p {color:#f4f3de; margin:10px auto 0px;}
+.f1box p span {font-weight: bold;}
+.f1box img {margin:0 2% 0 0}
+
+.f2box {width:100%; height:10%; border-top:1px solid #fff;  margin:10% 0 0 0;}
+.f2box p {color:#f4f3de; margin:20px auto 0px;}
+
+}

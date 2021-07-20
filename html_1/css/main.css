@@ -1,0 +1,902 @@
+@charset "UTF-8";
+
+#slider {background-color: #f2f2f0}
+
+#slider img {
+    width: 100%;
+    height: 660px;
+}
+
+#sliderimgbox {
+    width: 1680px;
+    height: 660px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+#sliderimgbox img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.slidertextbox {
+    position: absolute;
+    margin: -500px 0 0 150px;
+}
+
+.wagashi {
+    background-color: #eaaaaf;
+    color: #fff;
+    width: 145px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.sogae {border:3px solid #eaaaaf; border-radius:10px; padding: 30px; background-color:rgba(0, 0, 0, 0.2);}
+
+.sogae p {
+    font-size: 30px;
+    margin: 20px auto 0px;
+    color: white;
+}
+
+.sogae h3 {
+    font-size: 50px;
+    color: #eaaaaf;
+}
+
+.sogae span {
+    font-size: 15px;
+    margin: 40px auto 0px;
+    display: block;
+    color: white;
+}
+
+.sogae a {
+    text-decoration: none;
+    color: black;
+    margin: 40px auto 0px;
+    font-weight: bold;
+}
+
+.sogae:hover {background-color:rgba(255, 255, 255, 0.2);}
+
+section {
+    width: 100%;
+    height: 6300px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #f2f2f0;
+
+}
+
+#sectionpart1 {
+    width: 100%;
+    height: 1355px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.part1box1 {
+    width: 1485px;
+    height: 70px;
+    margin: 100px auto 0px;
+    text-align: center;
+}
+
+.part1box1 h3 {
+    font-size: 25px;
+    display: inline-block;
+}
+
+.part1box2 {
+    width: 1255px;
+    height: 870px;
+    margin: 20px auto 0px;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.part1box2 .pt1productbox {
+    width: 255px;
+    height: 365px;
+    margin: 10px auto 0px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.pt1productbox:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.jjim1 {
+    width: 50%;
+    background-color: #f8f8f8;
+    float: left;
+    height: 70px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #bbc8db;
+    margin: -5px 0 0 0px;
+    display: none;
+}
+
+.jjim2 {
+    width: 50%;
+    background-color: #f8f8f8;
+    float: left;
+    height: 70px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #bbc8db;
+    margin: -5px 0 0 0px;
+    display: none;
+}
+
+.jjim3 {
+    width: 50%;
+    background-color: #f8f8f8;
+    float: left;
+    height: 70px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #bbc8db;
+    margin: -5px 0 0 0px;
+    display: none;
+}
+
+.jjim4 {
+    width: 50%;
+    background-color: #f8f8f8;
+    float: left;
+    height: 70px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #bbc8db;
+    margin: -5px 0 0 0px;
+    display: none;
+}
+
+.jjim span {
+    display: block;
+    margin: 15px 0 0 0px;
+    color: #bbc8db;
+}
+
+.pt1product {
+    width: 255px;
+    height: 370px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 4px #eee;
+        background-color:white;
+
+}
+
+.pt1product img {
+    width: 100%;
+    height: 250px;
+}
+
+.pt1product .pt1producttextbox {
+    text-align: left;
+    margin: 10px auto 0px;
+    width: 270px;
+    line-height: 200%;
+    padding: 0px 10px;
+}
+
+.pt1product p {
+    color: #666;
+    font-size: 12px;
+    margin: -5px 0 0 0px;
+
+}
+
+.pt1product h4 {
+    font-size: 20px;
+    margin: -5px 0 0 0px;
+}
+
+.pt1product span {
+    font-size: 20px;
+    color: #ed5c22;
+    font-weight: bold;
+}
+
+.part1box3 {
+    width: 1485px;
+    height: 190px;
+    margin: 40px auto 0px;
+    background-image:url(../img/main/middlebanner.jpg);
+    background-repeat:no-repeat;
+    text-align:center;
+    padding:0px;
+}
+
+.part1box3:hover {
+    cursor: pointer;
+}
+
+.part1box3 img {
+    width: 100%;
+    height: 100%;
+}
+
+#sectionpart2 {
+    width: 100%;
+    height: 1115px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.part2box1 {
+    height: 70px;
+    width: 1330px;
+    margin: 0 auto;
+    margin: 40px auto 0px;
+    text-align: center;
+}
+
+
+
+.part2box1 h3 {
+    font-size: 25px;
+    display: inline-block;
+}
+
+.part2box2 {
+    width: 1300px;
+    height: 875px;
+    margin: 0 auto;
+    margin: 40px auto 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pt2productbox {
+    width: 270px;
+    height: 380px;
+    display:flex; flex-wrap: wrap; justify-content: center;
+}
+
+.pt2product {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.pt2imgbox img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    float: left;
+
+
+}
+
+.pt2imgbox img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+
+.pt2textbox {
+    width: 255px;
+    height: 120px;
+    text-align: left;
+    line-height: 170%;
+    position: absolute;
+    float: left;
+    margin: 300px 0 0 0px;
+}
+
+.pt2textbox p {
+    font-size: 13px;
+}
+
+.pt2textbox p:nth-of-type(2) {
+    color: red;
+    background-color: red;
+}
+
+.pt2textbox h4 {
+    font-size: 15px;
+}
+
+.pt2textbox span {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ed5c22;
+}
+
+.pt2productbox .pt2jjim1 {
+    float: left;
+    width: 25%;
+    height: 70px;
+    border-bottom: 1px solid #666;
+    text-align: center;
+    display: none;
+}
+
+.pt2jjim1 img {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto 0px;
+}
+
+.pt2jjim2 img {
+    width: 25px;
+    height: 20px;
+    margin: 25px auto 0px;
+}
+
+.pt2jjim3 img {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto 0px;
+}
+
+.pt2jjim3 span {
+    margin: -55px 0 0px 10px;
+    display: inline-block;
+    background-color: red;
+}
+
+.pt2productbox .pt2jjim2 {
+    float: left;
+    width: 25%;
+    height: 70px;
+    border-bottom: 1px solid #666;
+    text-align: center;
+    display: none;
+}
+
+.pt2productbox .pt2jjim3 {
+    float: left;
+    width: 50%;
+    height: 70px;
+    border-bottom: 1px solid #666;
+    text-align: center;
+    display: none;
+}
+
+
+
+#sectionpart3 {
+    width: 100%;
+    height: 805px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#sectionpart3 .part3box1 {
+    width: 1480px;
+    height: 190px;
+    background-color: red;
+    margin: 0px auto 0px;
+    text-align: center;
+}
+
+.part3box1:hover {cursor: pointer;}
+
+#sectionpart3 .part3box2 {
+    width: 1136px;
+    height: 280px;
+    margin: 140px auto 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pt3information {
+    width: 355px;
+    height: 245px;
+    float: left;
+    margin: 15px auto 0px;
+    text-align: center;
+}
+
+.pt3information:nth-of-type(2) {
+    border-left: 2px solid #eee;
+}
+
+.pt3information:nth-of-type(3) {
+    border-left: 2px solid #eee;
+}
+
+.pt3information img {
+    width: 93px;
+    height: 93px;
+    margin: 0 auto;
+    display: block;
+}
+
+.pt3information h3 {
+    margin: 20px 0 0 0px;
+}
+
+.pt3information p {
+    margin: 10px 0 0 0px;
+    font-size: 15px;
+}
+
+#sectionpart3 .part3box3 {
+    width: 915px;
+    height: 80px;
+    margin: 100px auto 0px;
+    text-align: center;
+}
+
+.part3box3 h3 {
+    font-size: 25px;
+    display: inline-block;
+
+}
+
+#sectionpart4 {
+    width: 100%;
+    height: 640px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.part4box1 {
+    width: 1450px;
+    height: 540px;
+    margin: 30px auto 0px;
+}
+
+.pt4productbox {
+    width: 700px;
+    height: 700px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+
+}
+
+.pt4productbox .pt4imgbox {
+    width: 700px;
+    height: 395px;
+    z-index: 1;
+    float: left;
+}
+
+.pt4imgbox img {
+    width: 100%;
+    height: 100%;
+}
+
+.pt4imgbox img:hover {
+    cursor: pointer;
+}
+
+.pt4textbox:hover {
+    cursor: pointer;
+}
+
+.pt4imgbox2 {
+    width: 65px;
+    height: 92px;
+    float: left;
+    margin: 280px 0 0px 520px;
+    position: absolute;
+}
+
+.pt4imgbox2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.pt4product {
+    width: 560px;
+    height: 150px;
+    text-align: left;
+    background-color: white;
+    margin: -100px 0 0 80px;
+    z-index: 2;
+    float: left;
+    padding: 10px;
+}
+
+.pt4textbox {
+    width: 540px;
+    height: 130px;
+    border: 2px solid #eee;
+    padding: 20px;
+    line-height: 180%;
+}
+
+.pt4textbox p {
+    font-size: 13px;
+}
+
+#sectionpart5 {
+    width: 100%;
+    height: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.part5box1 {
+    width: 490px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.part5box1 h3 {
+    font-size: 25px;
+    display: inline-block;
+}
+
+.part5box2 {
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.pt5productbox1 {
+    width: 310px;
+    height: 405px;
+    background-color: white;
+    margin: 0px auto 0px;
+    text-align: left;
+    box-shadow: 4px 4px 4px #ddd;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.pt5productbox1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.pt5productbox1 h4 {
+    display: inline-block;
+    margin: 15px 0 5px 40px;
+    font-size: 15px;
+}
+
+.pt5productbox1 p {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px 0 0 40px;
+}
+
+
+.pt5productbox1 h3 {
+    margin: 0px 0 0 40px;
+}
+
+.pt5productbox1 span {
+    color: #ed5c22;
+}
+
+.pt5productbox1 p {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.pt5product1 {
+    width: 100%;
+    height: 300px;
+}
+
+
+.pt5product1 img {
+    width: 100%;
+    height: 100%;
+    margin: -20px 0 0 0px;
+}
+
+
+.pt5productbox1 h4:before {
+    content: "SALE";
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    padding: 2px;
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 13px;
+    margin: -20px 0 5px 0px;
+}
+
+
+
+.part5box3 {
+    width: 475px;
+    height: 95px;
+    margin: 50px auto 0px;
+}
+
+.part5box3 h3 {
+    font-size: 25px;
+    display: inline-block;
+}
+
+.part5box4 {
+    width: 1260px;
+    height: 305px;
+    margin: 0 auto;
+
+}
+
+.pt5productbox2 {
+    width: 1260px;
+    height: 300px;
+    margin: 10px auto 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.pt5product2 {
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+    line-height: 150%;
+}
+
+.pt5product2 p {
+    font-size: 12px;
+    float: left;
+    display: block;
+    width: 300px;
+    margin: 30px 0 0 -40px;
+}
+
+.pt5product2 span {
+    font-size: 15px;
+    float: left;
+    display: block;
+    width: 300px;
+    margin: 0px 0 0 -40px;
+}
+
+.pt5imgbox {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 auto;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 3px 3px 3px #ddd;
+    overflow: hidden;
+}
+
+.pt5imgbox img {
+    min-width: 100%;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.pt5imgbox img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.pt5product2 span {
+    font-weight: bold;
+}
+
+.pt5imgbox2 {
+    float: left;
+    z-index: 1;
+    margin: -30px 0 0 75px;
+    position: absolute;
+}
+
+.pt5imgbox2 img {
+    width: 80%;
+    height: 80%;
+}
+
+.pt5imgbox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.pt5productbox3 {
+    width: 120px;
+    height: 40px;
+    margin: -30px auto 0px;
+
+}
+
+.pt5productbox3 button {
+    width: 120px;
+    height: 40px;
+    margin: 30px auto 0px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    line-height: 300%;
+    background-color: white;
+    font-size: 12px;
+    box-shadow: 4px 4px 4px #ddd;
+}
+
+
+#sectionpart6 {
+    width: 100%;
+    height: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.part6box1 {
+    width: 920px;
+    height: 60px;
+    margin: 80px auto 0px;
+}
+
+.part6box1 h3 {
+    font-size: 25px;
+    display: inline-block;
+}
+
+.part6box1 h3 > span {
+    color: #666;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.part6box1 h3 > p {
+    display: inline
+}
+
+.part6box2 {
+    width: 1290px;
+    height: 645px;
+    margin: 50px auto 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.pt6productbox1 {
+    width: 300px;
+    height: 295px;
+    background-color: white;
+    margin: 5px auto 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.pt6product1 .sp1 {
+    margin: -90px 0 0 80px;
+}
+
+.pt6product1 .p1 {
+    margin: -65px 0 0 30px;
+    font-size: 16px;
+}
+
+.pt6product1 .sp2 {
+    margin: -90px 0 0 70px;
+}
+
+.pt6product1 .sp3 {
+    margin: -90px 0 0 70px;
+}
+
+
+
+
+.pt6productbox1 img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+
+.pt6productbox1 img:hover {
+    opacity: 0.8;
+}
+
+.pt6product1:hover {
+    opacity: 0.5;
+}
+
+.pt6product1 {
+    width: 280px;
+    height: 110px;
+    background-color: white;
+    margin: 175px auto 0px;
+    opacity: 0.8;
+}
+
+.pt6product1 span {
+    margin: -90px 0 0 120px;
+    position: relative;
+    float: left;
+    font-size: 12px;
+}
+
+.pt6product1 p {
+    margin: -70px 0 0 60px;
+    position: relative;
+    float: left;
+    font-size: 20px;
+}
+
+
+.pt6productbox2 {
+    width: 615px;
+    height: 295px;
+    background-color: white;
+    margin: 5px auto 0px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.pt6productbox2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.pt6product2 {
+    width: 605px;
+    height: 285px;
+    border: 2px solid #eee;
+    position: absolute;
+}
+
+.pt6textbox {
+    width: 605px;
+    height: 285px;
+    background-color: white;
+    position: absolute;
+    margin: 0px 0 0 0px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.pt6textbox:hover {
+    cursor: pointer;
+}
+
+.pt6textbox span {
+    margin: 80px auto 0px;
+    display: block;
+    font-size: 20px;
+}
+
+.pt6textbox h3 {
+    margin: 5px auto 0px;
+    font-size: 35px;
+}
+
+.pt6textbox p {
+    margin: 7px auto 0px;
+    font-size: 15px;
+}
+

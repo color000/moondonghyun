@@ -1,0 +1,154 @@
+﻿@charset "UTF-8";
+* {margin:0; padding:0; box-sizing: border-box}
+ul,li,ol {list-style: none; margin:0; padding:0;}
+/* 사이드 리모콘 버튼 */
+#menu {width:110px; height:530px; position:fixed; z-index: 2; background-color: rgba(255,255,255,1); right:0; top:46%; transform: translateY(-50%); border-bottom-left-radius: 30px; display: flex; flex-wrap: wrap; border-top-left-radius: 30px; align-content: flex-start;}
+#menu > li:first-child {background-color:#17a9f0; height:50px; color:#fff; font-weight: bold; font-size:23px; border-top-left-radius: 30px; }
+#menu > li:last-child {border-bottom-left-radius: 30px;}
+#menu > li {width:100%; height:96px; display: flex; flex-wrap: wrap; justify-content: center; align-content: center; position: relative;}
+#menu > li > a {text-decoration: none; color:#000; font-size:13px;}
+#menu > li > a > img {width:70%; height:70%; position: absolute; top:50%; left:50%; transform: translate(-50%,-50%); transition: 0.3s}
+#menu > li > a > img:hover  {opacity: 0.4;}
+#menu > li > span {position: absolute; z-index: 2; color:#666; bottom: -2px; left:50%; transform: translateX(-50%)}
+
+
+/* 본문 */
+#fullpage {margin:0; padding:0;}
+
+/* 슬라이드 1 최상단 */
+#fullpage > .section-01 {width: 100%; margin:0 auto; overflow: hidden; position: relative;}
+
+/* 글씨가 자동으로 써지는 부분 */
+.typingbox {margin:90px auto; height:60px; width:600px;}
+.typing-txt{display: none;}
+.typeing-txt ul{list-style:none;}
+.typing {display: inline-block; animation-name: cursor; animation-duration: 0.3s; animation-iteration-count: infinite; color:#fff; font-size:40px; font-weight: bold;}
+
+@keyframes cursor{ 0%{border-right: 1px solid #fff} 50%{border-right: 1px solid #000} 100%{border-right: 1px solid #fff} }
+
+/* 글씨 자동으로 써지는 부분 밑의 하단 텍스트 및 아이콘*/
+.typingpbox {margin: -80px auto; width:800px; text-align: center; color: #aaa; font-size:15px; letter-spacing: -0.5px; }
+.typingpbox > ul {width:250px; height:20px; margin:30px auto; display: flex; justify-content: space-around;}
+.typingpbox > ul > li {color: #17282f; background-color: #fff; font-size:22px; width:40px; height:40px; border-radius: 50%; border:1px solid #fff; display: flex; justify-content: center; align-items: center; cursor: pointer; position: relative;}
+.typingpbox > ul > li > i {text-align: center; margin-left: -1px;}
+.typingpbox > ul > li:hover > i {color: #17a9f0}
+.typingpbox > ul > li > span {position:absolute; top:50px; font-size:12px; color: #fff; background-color:#17a9f0;  text-align: center; border-radius: 20px; width:150px; height:20px; line-height: 20px; display: none;}
+
+/* about */
+.aboutwrap {width:1350px; height:65%; background-color: #eaedf2; position: absolute; bottom: 0; left:50%; transform: translateX(-50%); border-top-left-radius: 80px; border-top-right-radius: 80px; overflow: hidden}
+.about {width:85%; height:90%; margin:4% auto;}
+.about > h3 {font-size:30px;}
+.linebox {width:50px; height:2px; background-color: #17a9f0; margin-top: 10px; margin-bottom: 10px;}
+.moondonghyun {width:100%; height:73%; margin:20px auto; display: flex;}
+.moondonghyun > .mimgbox {width:35%; height:100%; background-color: #fff; border-radius: 20px; padding:20px;}
+.moondonghyun > .mimgbox > .mimg {width:100%; height:100%; position: relative;}
+.moondonghyun > .mimgbox > .mimg > img {width:100%; height:100%;}
+.moondonghyun > .mimgbox > .mimg > ul {width:40px; height:130px; background-color: #fff; position: absolute; top:30px; left:-1px; display: flex; flex-wrap: wrap; align-content: flex-start;}
+.moondonghyun > .mimgbox > .mimg > ul > li {width:80%; background-color: #17a9f0; height:22%; margin-top: 11px; color: #fff; text-align: center; font-size:20px; display: flex; justify-content: center; align-items: center; cursor: pointer; position: relative;}
+.moondonghyun > .mimgbox > .mimg > ul > li > span {position: absolute; left:50px; width:130px; font-size:14px; background-color: #2e3132; border-radius: 20px; height:25px; line-height: 25px; opacity: 0.9; display: none;}
+
+.moondonghyun > .mimgbox > .mimg > ul > li:hover > i {transition: 0.8s}
+.moondonghyun > .mimgbox > .mimg > ul > li:hover > .fa-moon {color:yellow}
+.moondonghyun > .mimgbox > .mimg > ul > li:hover > .fa-meteor {color:tomato}
+.moondonghyun > .mimgbox > .mimg > ul > li:hover > .fa-sketch {color:blueviolet}
+
+.mtextbox {width:60%; height:100%; margin-left: 5%;}
+.mtextbox > h3 {font-size:30px; margin-top: 10px;}
+.mtextbox > span {font-size:20px; margin-top: 10px; display: inline-block}
+.mtextbox > span > b {font-weight: normal; color: #17a9f0}
+.mtextbox > p {margin-top: 10px; font-size:14px; color: #666; line-height: 180%;}
+.mtextbox > table {margin-top: 30px; width:95%; text-align: left; height:30%; font-size:16px;}
+.mtextbox > table td {color: #666}
+.mtextbox > button {width:19%; height:9%; background-color:#17a9f0; color: #fff; font-weight: bold; border: 2px solid #17a9f0; outline: none; margin-top: 20px; transition: 0.3s; cursor: pointer;}
+.mtextbox > button:hover {background-color: #fff; color: #17a9f0; border:2px solid #17a9f0;}
+
+/* 슬라이드 2 인터파크 */
+#fullpage > .section-02 {width: 100%; margin: 0 auto;}
+.bodywrap {width:1350px; height:100%; background-color: rgba(255,255,255,1); margin: 0 auto; display:flex; justify-content: center; align-items: center;}
+
+
+/* 슬라이드 내 본문 */
+.bodyimgbox {width:560px; height:770px; border-top-left-radius: 200px; border-bottom-right-radius: 200px; position: relative;}
+.bodyimgbox > .bodyimg {width:560px; height:770px; border-top-left-radius: 200px; border-bottom-right-radius: 200px; overflow: hidden; box-shadow: 6px 6px 6px #ddd; border:1px solid #ccc;}
+
+
+.bodyimgbox > .bodyimg > ul {width:1680px; height:770px;}
+.bodyimgbox > .bodyimg > ul > li {float: left; width:560px; height:770px; }
+.bodyimgbox > .bodyimg > ul > li > img {width:100%;}
+
+.bhoverbox {width:560px; height:770px; cursor: pointer; position: absolute; z-index: 2; top:0; border-top-left-radius: 200px; border-bottom-right-radius: 200px; transition: 0.3s ease-in-out; display: flex; justify-content: center; align-items: center;}
+.bhoverborder { border-top-right-radius: 200px; border-bottom-right-radius: 0px; border-top-left-radius: 0; border-bottom-left-radius: 200px;}
+
+.bhoverbox > i {font-size:30px; border:1px solid #fff; color:#fff; padding:10px; border-radius: 10px; display: none;}
+.bhoverbox:hover {background-color: rgba(0,0,0,0.4)}
+.bhoverbox:hover > i {display: block;}
+
+.bodyimgbox > .iphonebox {position: absolute; bottom:-40px; left:-50px; width:250px; height:460px; background-image: url(../img/iphone.png); background-size: 100% 100%; z-index: 3;}
+.bodyimgbox > .iphonebox > .ipulbox {width:210px; height:340px; margin-top: 60px; margin-left: 18px;cursor: pointer; overflow: hidden}
+.bodyimgbox > .iphonebox > .ipulbox > ul {width:210px; height:340px; cursor: pointer; }
+.bodyimgbox > .iphonebox > .ipulbox > ul > li {width:210px; height:340px;}
+.bodyimgbox > .iphonebox > .ipulbox > ul > li > img {width:210px; height:340px;}
+
+.bodyimgbox > .iphoneright {position: absolute; bottom:-40px; right:-50px; width:250px; height:460px; background-image: url(../img/iphone.png); background-size: 100% 100%; z-index: 3;}
+.bodyimgbox > .iphoneright > .ipulbox {width:210px; height:340px; margin-top: 60px; margin-left: 18px;cursor: pointer; overflow: hidden}
+.bodyimgbox > .iphoneright > .ipulbox > ul {width:210px; height:340px; cursor: pointer; }
+.bodyimgbox > .iphoneright > .ipulbox > ul > li {width:210px; height:340px;}
+.bodyimgbox > .iphoneright > .ipulbox > ul > li > img {width:210px; height:340px;}
+
+
+
+
+.bodytextbox {width:360px; height:570px; position: relative;}
+.textleft {margin-left: 150px}
+.textright {margin-right: 150px}
+
+.bodytextbox > h3 {font-size:50px; letter-spacing: 4px; font-family:inherit;}
+.bodytextbox > h3 > span {color: #17a9f0}
+.bodytextbox > h4 {margin-top: 40px; font-size:25px;}
+.bodytextbox > span {margin-top: 5px; display: block; color: #666}
+.bodytextbox > b {display: block; margin-top: 30px; font-size:20px;}
+.bodytextbox > .colorbox {font-size: 25px; margin-top: 10px;}
+.bodytextbox > .colorbox > i {cursor: pointer;}
+.bodytextbox > p {margin-top: 30px; font-size:14px; color: #666; line-height: 180%; width:100%}
+
+
+/* 컬러 색상 변경 */
+.fablue {color:#1792f0}
+.fared {color:#f75850}
+.fapink {color: #d2538a}
+.fapink2 {color: #eaaaaf}
+.fayellow {color: #f1ae2b}
+.fagreen {color: #1b2d2f}
+.faorange {color: #ee6f3d}
+.fawhite {color: #f2f2f0}
+
+/* 슬라이드 3 neon-space */
+#fullpage > .section-03 {width: 100%; margin: 0 auto;}
+
+
+
+/* 슬라이드 4 Groggery */
+#fullpage > .section-04 {width: 100%; margin: 0 auto;}
+
+
+
+/* 슬라이드 5 화과방 */
+#fullpage > .section-05 {width: 100%; margin: 0 auto; position: relative;}
+
+.flower {width:1350px; height:85%; background-color: rgba(255,255,255,1); margin:0 auto; border-bottom-left-radius: 80px; border-bottom-right-radius: 80px; display: flex; justify-content: center; align-items: flex-start; }
+
+.flower > .bodyimgbox {width:560px; height:670px; border-top-left-radius: 200px; border-bottom-right-radius: 200px; position: relative; }
+.flower > .bodyimgbox > .bodyimg {width:560px; height:750px; border-top-left-radius: 200px; border-bottom-right-radius: 200px; overflow: hidden; box-shadow: 6px 6px 6px #ddd; border:1px solid #cdcdcd; margin-top: 20px;}
+
+
+.flower > .bodyimgbox > .bodyimg > ul {width:1680px; height:750px;}
+.flower > .bodyimgbox > .bodyimg > ul > li {float: left; width:560px; height:750px; }
+.flower > .bodyimgbox > .bodyimg > ul > li > img {width:100%; height:100%;}
+
+.flower > .bodyimgbox > .bhoverbox {width:560px; height:750px; cursor: pointer; position: absolute; z-index: 2; top:0; border-top-left-radius: 200px; border-bottom-right-radius: 200px; transition: 0.3s ease-in-out; display: flex; justify-content: center; align-items: center; margin-top: 20px;}
+.flower > .bhoverborder { border-top-right-radius: 200px; border-bottom-right-radius: 0px; border-top-left-radius: 0; border-bottom-left-radius: 200px;}
+
+.flower > .bodytextbox {width:360px; height:670px;}
+.flower > .bodytextbox > h3 {margin-top: 90px;}
+.footer {width:100%; height:10%; position: absolute; bottom: 0; background-color: #020318; display: flex; justify-content: center; align-items: center; color: #666; text-align: center; line-height: 160%; font-size:13px;}
+.footer > p > span {color:#17a9f0; cursor: pointer;}
