@@ -75,6 +75,7 @@ ul,li,ol {list-style: none; margin:0; padding:0;}
 .bodyimgbox > .bodyimg > ul {width:1680px; height:770px;}
 .bodyimgbox > .bodyimg > ul > li {float: left; width:560px; height:770px; }
 .bodyimgbox > .bodyimg > ul > li > img {width:100%;}
+.nettiss img {height:100%;}
 
 .bhoverbox {width:560px; height:770px; cursor: pointer; position: absolute; z-index: 2; top:0; border-top-left-radius: 200px; border-bottom-right-radius: 200px; transition: 0.3s ease-in-out; display: flex; justify-content: center; align-items: center;}
 .bhoverborder { border-top-right-radius: 200px; border-bottom-right-radius: 0px; border-top-left-radius: 0; border-bottom-left-radius: 200px;}
